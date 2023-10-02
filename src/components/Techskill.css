@@ -1,0 +1,44 @@
+.techskill{
+    margin-top: 5rem;
+   
+    height: 70vh;
+    padding: 0rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+.techskill >:nth-child(1){
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+.skill-container{
+    width: 100%;
+    display: flex;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+.skill-left{
+    width: 70%;  
+}
+.skill-left img{
+    width: 5%;
+    height: auto;
+    margin: 10px 20px;
+    padding: 10px 5px;
+    border-radius: 15px;
+}
+.skill-right{
+    width: 40%;
+    text-align: center;
+}
+.skill-right > img{
+    width: 400px;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+}

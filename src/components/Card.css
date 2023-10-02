@@ -1,0 +1,25 @@
+.s-card {
+  width: 9.5rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  box-shadow: 0px 19px 60px rgb(0 0 0/8%);;
+  border: 1px solid #8080805c;
+  border-radius: 7px;
+}
+
+.s-card :nth-child(1) {
+  width: 80px;
+  padding-bottom: 1rem;
+}
+.s-card :nth-child(2) {
+  padding-bottom: 2rem;
+}
+.s-card :nth-child(3) {
+  padding-bottom: 1rem;
+  text-align: center;
+  color: var(--gray);
+  font-size: 15px;
+}

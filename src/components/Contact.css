@@ -1,0 +1,115 @@
+.contact {
+  margin-bottom: 1rem;
+  padding-top: 3rem;
+  display: flex;
+  height: 70vh;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact-text {
+  height: 100%;
+  position: relative;
+  background-image: url('../image/waiting.svg');
+  background-position: center;
+  background-attachment:scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 20rem 23rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex: 1;
+}
+/* .contact-text > :nth-child(1) {
+  font-size: 2.5rem;
+  font-weight: bold;
+} */
+.contact-text > :nth-child(1) {
+  position: absolute;
+  font-size: 2rem;
+  color: var(--orange);
+  font-weight: bold;
+  bottom: 0rem;
+}
+.contact-form{
+   position: relative;
+    flex: 1;
+}
+#form{
+  width: 50%;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 11px;
+  box-shadow: 0px 0px 20px 0px #a2d9f11c;
+}
+#form label{
+ font-size: 16px;
+  
+}
+#form input
+{
+  margin: 10px 0px;
+  width: 100%;
+  font-size: 14px;
+  border: none;
+  line-height: 30px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #FCA61F;;
+  padding: 10px;
+  outline: none;
+  color: #08def9;
+}
+
+textarea {
+  margin: 10px 0px;
+  width: 100%;
+  border: none;
+  line-height: 30px;
+  font-size: 14px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #FCA61F;;
+  padding: 10px;
+  outline: none;
+  color: #08def9;
+}
+#form input:focus,
+textarea:focus{
+    box-shadow: 8px 11px 20px 0px #ffa5002b;
+    border-radius: 5px;
+}
+::placeholder {
+  font-size: 15px;
+  color: rgb(224, 223, 223);
+}
+#form button{
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    line-height: 30px;
+    border-radius: 35px;
+    padding: 10px 20px;
+    margin: 0;
+    background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
+    color: white;
+}
+#form button:hover{
+    background: white;
+    color: var(--orange);
+    border: 1px solid #FCA61F;
+    box-shadow: 0px 20px 24px 3px rgb(251, 161, 40, 0.42);
+}
+.c-blur{
+  position: absolute;
+  top: 10rem;
+}
+.success{
+  margin-left:90px;
+  font-size: 13px;
+  font-weight: 600;
+  color: lime;
+ 
+  border-radius: 3px;
+
+}

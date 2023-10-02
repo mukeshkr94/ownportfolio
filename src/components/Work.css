@@ -1,0 +1,75 @@
+.work{
+    padding: 4rem 6rem;
+    display: flex;
+    height: 90vh;
+}
+
+.w-right{
+    position: relative;
+  flex: 1;
+   
+}
+
+.w-mainCercle{
+    left: 9rem;
+    top: 2rem;
+    width: 18rem;
+    height: 18rem;
+    position: relative;
+    border-radius: 100%;
+    box-shadow: var(--smboxShadow);
+    background: white;
+    
+}
+.w-secSecrcle{
+    position: absolute;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:5px solid #ebebeb ;
+    background: white;
+    box-shadow: var(--smboxShadow);
+}
+.w-mainCercle>:nth-child(1){
+    top: -3rem;
+    left: 6rem;
+}
+.w-mainCercle>:nth-child(2){
+    top: 6rem;
+    left: 6rem;
+}
+.w-mainCercle>:nth-child(3){
+    top: 15rem;
+    left: 8rem;
+}
+.w-mainCercle>:nth-child(4){
+    top: 5rem;
+    left: 15rem;
+}
+.w-mainCercle>:nth-child(5){
+    top: 6rem;
+    left: -3rem;
+}
+.w-secSecrcle >img{
+    transform: scale(0.6);
+}
+.w-backCircle{
+    position: absolute;
+    width: 13rem;
+    height: 13rem;
+    border-radius: 100%;
+    z-index: -1;
+}
+.blueCercle{
+    background: blue;
+    left: 18rem;
+    top: 0rem;
+}
+.yellowCercle{
+    background: #f5c32c;
+    left: 18rem;
+    top: 8rem;
+}

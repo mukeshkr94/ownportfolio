@@ -1,0 +1,46 @@
+.service{
+    padding: 5rem 8rem;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    height: 90vh;
+    display: flex;
+}
+.awesome{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    position: relative;
+}
+.awesome >:nth-child(1){
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--black);
+}
+.awesome >:nth-child(2){
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--orange);
+}
+.awesome >:nth-child(3){
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--gray);
+    padding: 1.5rem 0rem;
+    line-height: 23px;
+    margin-bottom: 5rem;
+}
+
+.card{
+    flex: 1;
+    position: relative;
+    left: 20%;
+    top: 40%;
+}
+.s-blur-2{
+    left: 8rem;
+    top: 7rem;
+}
+.s-blur-1{
+    left: -21rem;
+    top: 10rem;
+}
