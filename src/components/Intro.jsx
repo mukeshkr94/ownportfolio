@@ -8,7 +8,7 @@ import Emoji from "../image/glassesimoji..png";
 import Hero1 from "../image/FirstHero.png";
 import FloatingDiv from "./FloatingDiv";
 import Crown from '../image/crown.png'
-import { motion, spring } from "framer-motion"
+import { motion} from "framer-motion"
 
 const Intro = () => {
   const transition = {duration:2, type:'spring'}
